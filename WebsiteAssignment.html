@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>My First Website</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        </head>
+        <body class="bg-primary-subtle">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+            <header class="bg-dark bg-gradient text-white text-center py-5 border-bottom border-warning border-5">
+                <h1 class="display-3 fw-bold text-warning">DREAMY GAMEY CONTEST</h1>
+                <h2 class="h3 text-info">JOIN THE CONTEST TO WIN COOL PRIZES</h2>
+                <p class="lead mx-auto col-lg-8 px-3"> Register now to participate in our exciting contest. Don't miss out on this opportunity to showcase your skills
+                </p>
+            </header>
+            <div class="container my-5">
+                <h3 class="text-center fw-bold mb-4">Games on board</h3>
+                <ul class="list-group shadow rounded-4 col-lg-8 mx-auto fs-5 fw-semibold">
+                <li class="list-group-item list-group-item-danger">Game 1: Space Invaders</li>
+                <li class="list-group-item list-group-item-warning">Game 2: Pac-Man</li>
+                <li class="list-group-item list-group-item-success">Game 3: Minecraft</li>
+                </ul>
+            </div>
+            <div class="container my-5 text-center">
+                <div  class="table-responsive shadow rounded-4 mb-4">               
+                <table  class="table table-bordered table-hover table-striped align-middle mb-0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>GAME</th>
+                            <th>GENRE</th>
+                            <th>DURATION</th>   
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Space Invaders</td>
+                            <td>Shooter</td>
+                            <td>1 hour</td>
+                        </tr>
+                        <tr>
+                            <td>Pac-Man</td>
+                            <td>Arcade</td>
+                            <td>30 mins</td>
+                        </tr>
+                        <tr>
+                            <td>Minecraft</td>
+                            <td>Sandbox</td>
+                            <td>2 hours</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+                <a href="https://www.example.com" target="_blank" class="btn btn-danger btn-lg rounded-pill shadow px-4">Click here to visit our official website</a>
+            </div>
+            <h3 class="container text-center fw-bold mb-4">Register for the Contest</h3>
+            <div  class="container mb-5">
+            <form action="submit.html" method="post" class="bg-white p-4 p-md-5 rounded-4 shadow-lg border border-4 border-info col-lg-8 mx-auto">
+                <label for="name" class="form-label fw-bold">Name:</label>
+                <input type="text" id="name" name="name" class="form-control form-control-lg" required><br><br>
+                <label for="age" class="form-label fw-bold">Age:</label>
+                <input type="number" id="age" name="age" min="12" max="100" class="form-control form-control-lg" required><br><br>
+                <label class="form-label fw-bold">Gender</label><br>
+                <input type="radio" id="male" name="gender" value="male" class="form-check-input" required>
+                <label for="male"  class="form-check-label me-3">Male</label>
+                <input type="radio" id="female" name="gender" value="female" class="form-check-input" required>
+                <label for="female" class="form-check-label">Female</label><br><br>
+                <span>Preferred Gaming Platform:</span><br>
+                <input type="checkbox" id="platform1" name="platform" value="PC" class="form-check-input">
+                <label for="platform1" class="form-check-label">PC</label><br>
+                <input type="checkbox" id="platform2" name="platform" value="Nintendo Switch" class="form-check-input">
+                <label for="platform2" class="form-check-label">Nintendo Switch</label><br>
+                <input type="checkbox" id="platform3" name="platform" value="Xbox" class="form-check-input">
+                <label for="platform3" class="form-check-label">Xbox</label> <br>
+                <input type="checkbox" id="platform4" name="platform" value="PlayStation" class="form-check-input">
+                <label for="platform4" class="form-check-label">PlayStation</label><br><br>
+                <label for="email" class="form-label fw-bold">Email:</label>
+                <input type="email" id="email" name="email" class="form-control form-control-lg" required><br><br>
+                <input type="submit" value="Register"  class="btn btn-success btn-lg rounded-pill px-5 shadow">
+                </form>
+                </div>
+                <script src="websitescript.js"></script>
+        </body>
+</html>

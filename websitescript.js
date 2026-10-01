@@ -18,7 +18,7 @@ const platform = selection();
       event.preventDefault();
       alert('Please select at least one gaming platform.');}
       else {
-        alert('Form submitted successfully!') + platform.join(', ');  
+        alert('Form submitted successfully!' + platform.join(', '));  
       }
    }} );       
    const rows = document.querySelectorAll('table tbody tr');
